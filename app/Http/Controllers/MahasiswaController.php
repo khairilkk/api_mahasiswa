@@ -46,7 +46,7 @@ class MahasiswaController extends Controller
         Mahasiswa::destroy($id);
 
         return response()->json([
-            'message'=>'Data berhasil dihapus'
+            'message'=>'legalS'
         ]);
     }
 }
